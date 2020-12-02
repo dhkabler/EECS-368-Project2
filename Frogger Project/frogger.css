@@ -1,0 +1,64 @@
+.board
+{
+    border: 2px solid;
+    float: right;
+    position: relative;
+    bottom: 275px;
+    flex-wrap: wrap;
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.board div
+{
+ 
+    height: 60px;
+    width: 60px;
+}
+
+.grass
+{
+    background-image:url("grass.jpg");
+}
+
+
+.finishBlocks
+{
+    background-image:url("finish.jpg");
+    background-color: yellow;
+}
+
+.c1, .c2
+{
+    background-image:url("car.jpg");
+    background-color: black;
+}
+.right
+{
+    background-image:url("car-right.jpg");
+}
+
+.s1, .s2, .s3, .s4
+{
+    background-image:url("street.jpg");
+    background-color: grey;
+}
+
+.w1, .w2
+{
+    background-image:url("water.jpg");
+    background-color: blue;
+}
+
+.l1, .l2, .l3, .l4, .l5, .l6
+{
+    background-image:url("log.jpg");
+    background-color: brown;
+}
+
+.frog
+{
+    background-image:url("frog.png");
+    background-color:green;
+    
+}

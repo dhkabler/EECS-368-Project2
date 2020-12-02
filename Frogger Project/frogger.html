@@ -1,0 +1,116 @@
+<html>
+    <head>
+       
+        <title>Frogger Game</title>
+        <link rel="stylesheet" href="frogger.css">
+        <script src="frogger.js" ></script>
+        
+        
+    </head>
+    <body>
+        <header><b style = font-size:30px;>Frogger Game</b></header>
+        <p id = "level" style = font-size:20px;>Level 1</p>
+       
+        <p style = font-size:20px;>Select Direction of Cars and Logs:<select id = "movement">
+            <option value = "Default">Default</option>
+            <option value = "opposite">Opposite</option>
+          </select>
+        <br></p>
+        <p style = font-size:20px;>Select Difficulty:<select id = "difficulty">
+            <option value = "Easy">Easy</option>
+            <option value = "Medium">Medium</option>
+            <option value = "Hard">Hard</option>
+          </select>
+        <br></p>
+        
+        <button id = "start" style = size:1in;>Start</button>
+
+        <br><br>
+        <p id = "gameChecker" style = font-size:20px;>Find your way to the checkered goal three times! Dodge the cars and the water!</p>
+        
+        <div class = "board">
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="finishBlocks"></div>
+            <div class="log w1"></div>
+            <div class="log l1"></div>
+            <div class="log l2"></div>
+            <div class="log l3"></div>
+            <div class="log w1"></div>
+            <div class="log l1"></div>
+            <div class="log l2"></div>
+            <div class="log l3"></div>
+            <div class="log w1"></div>
+            <div class="log l4"></div>
+            <div class="log l5"></div>
+            <div class="log l6"></div>
+            <div class="log w2"></div>
+            <div class="log l4"></div>
+            <div class="log l5"></div>
+            <div class="log l6"></div>
+            <div class="log w2"></div>
+            <div class="log l4"></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class="car s4"></div>
+            <div class="car c2"></div>
+            <div class="car s3"></div>
+            <div class="car s4"></div>
+            <div class="car c2"></div>
+            <div class="car s3"></div>
+            <div class="car s4"></div>
+            <div class="car c2"></div>
+            <div class="car s3"></div>
+            <div class="car s2"></div>
+            <div class="car c1"></div>
+            <div class="car s1"></div>
+            <div class="car s2"></div>
+            <div class="car c1"></div>
+            <div class="car s1"></div>
+            <div class="car s2"></div>
+            <div class="car c1"></div>
+            <div class="car s1"></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            <div class = grass></div>
+            
+        </div>
+    </body>
+</html>
